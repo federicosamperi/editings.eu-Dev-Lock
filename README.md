@@ -11,7 +11,7 @@ Testato su ambiente WordPress 7.0.2 con PHP 8.4.x. Potrebbe presentare problemi 
 Il plugin forza il sito web a reindirizzare un utente non autenticato alla home page impostata all'interno del pannello **Impostazioni > Lettura**. Per bypassare questo _blocco_, è sufficiente effettuare l'accesso al proprio account dal pannello di amministrazione di WordPress.
 
 # ⚙️ Aggiungere eccezioni
-Per permettere all'utente di consultare altre pagine oltre alla home page impostata dal pannello di amministrazione di WordPress, è possibile aggiungere delle eccezioni all'array "$editings_eu_dev_lock_allowed_pages" (Riga 18). Utile per permettere all'utente di consultare le pagine legali.
+Per permettere all'utente di consultare altre pagine oltre alla home page impostata dal pannello di amministrazione di WordPress, è possibile aggiungere delle eccezioni, sottoforma di ID Pagina, all'array "$editings_eu_dev_lock_allowed_pages" (Riga 18). Utile per permettere all'utente di consultare le pagine legali.
 ```php
 $editings_eu_dev_lock_allowed_pages = array(
 	10342, // Informativa Privacy
