@@ -20,3 +20,4 @@ $editings_eu_dev_lock_allowed_pages = array(
 
 # 🖌️ Personalizzazione
 Per installare il plugin, è sufficiente scaricare la release. È possibile modificare le informazioni di base senza troppi problemi ✨
+Testato su ambiente WordPress 7.0.2 con PHP 8.4.x. Potrebbe presentare problemi di incompatibilità con versioni di WordPress e PHP più vetuste.
