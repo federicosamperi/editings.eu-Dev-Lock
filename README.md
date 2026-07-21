@@ -5,6 +5,8 @@ Limita l'accesso all'ambiente di sviluppo di editings.eu ai soli utenti autentic
 
 Il presente screenshot è stato catturato il 20 luglio 2026 con il plugin in esecuzione.
 
+Testato su ambiente WordPress 7.0.2 con PHP 8.4.x. Potrebbe presentare problemi di incompatibilità con versioni di WordPress e PHP più vetuste.
+
 # ⚙️ Configurazione
 Il plugin forza il sito web a reindirizzare un utente non autenticato alla home page impostata all'interno del pannello **Impostazioni > Lettura**. Per bypassare questo _blocco_, è sufficiente effettuare l'accesso al proprio account dal pannello di amministrazione di WordPress.
 
@@ -20,4 +22,3 @@ $editings_eu_dev_lock_allowed_pages = array(
 
 # 🖌️ Personalizzazione
 Per installare il plugin, è sufficiente scaricare la release. È possibile modificare le informazioni di base senza troppi problemi ✨
-Testato su ambiente WordPress 7.0.2 con PHP 8.4.x. Potrebbe presentare problemi di incompatibilità con versioni di WordPress e PHP più vetuste.
